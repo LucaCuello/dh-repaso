@@ -6,20 +6,17 @@ class ProductCard extends Component {
   render() {
     return (
       <div className="product-card">
-        <h2>{this.props.title.slice(0, 15)}...</h2>
-        <p>${this.props.price}</p>
-        <img
-          src={this.props.thumbnail}
-          alt={this.props.title}
+        <h2>NOMBRE</h2>
+        <p>$PRECIO</p>
+        {/* <img
+          src={IMAGEN}
+          alt={IMAGEN}
           draggable={false}
-        />
-        <Link to={`/products/${this.props.id}`} className="button">
+        /> */}
+        <Link to={`ID`} className="button">
           Detalles
         </Link>
-        <button
-          onClick={() => this.props.deleteProduct(this.props.id)}
-          style={{ marginTop: "10px" }}
-        >
+        <button onClick={`FUNCION`} style={{ marginTop: "10px" }}>
           Borrar producto
         </button>
       </div>
