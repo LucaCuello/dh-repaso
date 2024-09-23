@@ -6,16 +6,16 @@ const Header = () => {
   return (
     <header>
       <nav>
-        <span>LOGO</span>
+        <h1>Movie App</h1>
         <ul>
           <li>
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/products">Productos</Link>
+            <Link to="/toprated">Top Rated movies</Link>
           </li>
           <li>
-            <Link to="/contact">Contacto</Link>
+            <Link to="/popular">Popular movies</Link>
           </li>
         </ul>
       </nav>

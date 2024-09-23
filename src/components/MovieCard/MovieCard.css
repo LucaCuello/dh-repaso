@@ -1,0 +1,26 @@
+.movie-card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 25px;
+  gap: 10px;
+  max-width: 220px;
+  background-color: #1c232b;
+  border-radius: 15px;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

@@ -30,3 +30,55 @@ body {
   align-items: center;
   gap: 25px;
 }
+
+.button {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button-primary {
+  background-color: #fb9e6a;
+  color: #ad4c15;
+}
+
+.button-primary:hover {
+  background-color: #ad4c15;
+  color: #fb9e6a;
+}
+
+.button-secondary {
+  background-color: #3e86af;
+  color: #16435e;
+}
+
+.button-secondary:hover {
+  background-color: #16435e;
+  color: #3e86af;
+}
+
+.movies-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-container input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  text-decoration: none;
+}
